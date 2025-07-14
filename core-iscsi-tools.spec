@@ -59,7 +59,7 @@ Narzędzia klienckie iSNS dla obiektu iSCSI.
 
 %prep
 %setup -q -n %{name}-v%{core_ver}
-%patch0 -p1
+%patch -P0 -p1
 
 mv isnsclient-v%{isns_ver}/{"iSNS License.txt",iSNS_License.txt}
 
